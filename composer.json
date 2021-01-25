@@ -1,7 +1,7 @@
 {
     "name": "crazyboy49z/laravelextends",
     "description": "Laravel extends console commands, traits and blade",
-    "license": "GPU3",
+    "license": "GPL-3.0",
     "authors": [
         {
             "name": "CrazyBoy49z",
