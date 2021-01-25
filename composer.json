@@ -1,0 +1,41 @@
+{
+    "name": "crazyboy49z/laravelextends",
+    "description": "Laravel extends console commands, traits and blade",
+    "license": "GPU3",
+    "authors": [
+        {
+            "name": "CrazyBoy49z",
+            "email": "yura.finiv@gmail.com",
+            "homepage": "yura.finiv.in.ua"
+        }
+    ],
+    "homepage": "https://github.com/crazyboy49z/laravelextends",
+    "keywords": ["Laravel", "LaravelExtends"],
+    "require": {
+        "illuminate/support": "~7|~8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~9.0",
+        "orchestra/testbench": "~5|~6"
+    },
+    "autoload": {
+        "psr-4": {
+            "CrazyBoy49z\\LaravelExtends\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CrazyBoy49z\\LaravelExtends\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CrazyBoy49z\\LaravelExtends\\LaravelExtendsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelExtends": "CrazyBoy49z\\LaravelExtends\\Facades\\LaravelExtends"
+            }
+        }
+    }
+}

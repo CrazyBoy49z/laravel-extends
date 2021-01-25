@@ -1,0 +1,11 @@
+<?php
+
+namespace {{namespace}};
+
+use CrazyBoy49z\LaravelExtends\Console\Commands\Contracts\ServiceInterface;
+
+
+interface {{ class }} extends ServiceInterface
+{
+
+}
